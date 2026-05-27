@@ -19,28 +19,28 @@ Durante más de una década, la gestión de roturas se realizaba de manera anal�
 ## 🚀 La Solución Digital (Arquitectura del Sistema)
 El software optimiza el flujo dividiendo los accesos en **3 roles de usuario específicos**, comunicados instantáneamente mediante la nube:
 
-<img width="3839" height="2006" alt="Ejemplo1" src="https://github.com/user-attachments/assets/5438f178-b3d0-4ed3-89e4-0435bd8261e6" />
 
 ### 1️⃣ Operario de Línea (Emisor)
 * **Acción:** Registra la rotura de forma inmediata desde un terminal en la zona de ensamble.
 * **Optimización:** Formulario estructurado con menús desplegables obligatorios: Tipo de vidrio, Medidas exactas, Instalación de origen y Tipo de no conformidad. Se eliminan los fallos de interpretación.
+* <img width="3839" height="2006" alt="Ejemplo1" src="https://github.com/user-attachments/assets/5438f178-b3d0-4ed3-89e4-0435bd8261e6" />
 
-<img width="1916" height="1006" alt="Ejemplo2" src="https://github.com/user-attachments/assets/2b371117-4fc8-4c3a-93ae-d12851be4976" />
 
 ### 2️⃣ Mesa de Corte (Receptor/Ejecutor)
 * **Acción:** Recibe una cola dinámica visual de pedidos pendientes de reposición.
 * **Optimización:** El cortador visualiza las incidencias al instante. Puede "colar" estratégicamente las reposiciones dentro de sus tiempos muertos de corte, optimizando el material y desatascando pedidos críticos.
+* <img width="1916" height="1006" alt="Ejemplo2" src="https://github.com/user-attachments/assets/2b371117-4fc8-4c3a-93ae-d12851be4976" />
 
-<img width="1919" height="1003" alt="Ejemplo3" src="https://github.com/user-attachments/assets/373d509e-9d43-4b5f-9588-c771c9269945" />
 
 ### 3️⃣ Panel de Oficina y Dirección (Auditoría y Analítica)
 * **Acción:** Supervisión centralizada y toma de decisiones basada en datos.
 * **Optimización:** Control total de tiempos de gestión. El sistema **calcula automáticamente la duración exacta** desde la creación hasta la compleción de cada reposición (Auditoría de Lead Time). Permite monitorizar picos de roturas para aplicar medidas de control de calidad preventivas.
+* <img width="1919" height="1003" alt="Ejemplo3" src="https://github.com/user-attachments/assets/373d509e-9d43-4b5f-9588-c771c9269945" />
 
-<img width="1918" height="1008" alt="Ejemplo4" src="https://github.com/user-attachments/assets/e1ce16a5-5143-409b-af98-c60336f6b1dc" />
 
 ### 📄 Generación de Reportes PDF
 El sistema incluye un módulo de informes que permite **exportar listados filtrados de reposiciones a formato PDF** con un solo clic. Esto asegura la trazabilidad histórica para auditorías de calidad y control de material, eliminando la necesidad de archivar papeles físicos.
+<img width="1918" height="1008" alt="Ejemplo4" src="https://github.com/user-attachments/assets/e1ce16a5-5143-409b-af98-c60336f6b1dc" />
 
 ---
 
