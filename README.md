@@ -48,6 +48,7 @@ El sistema incluye un módulo de informes que permite **exportar listados filtra
 * **Frontend:** HTML5, CSS3, JavaScript.
 * **Backend & Base de Datos:** **Firebase Realtime Database** (Garantiza reflejo de cambios en <1s).
 * **Autenticación:** Firebase Auth (Control estricto de acceso por roles).
+* **Metodología de Desarrollo (AI-Assisted Development):** El diseño conceptual, la arquitectura del software y la lógica matemática de tarificación fueron estructurados de forma autodidacta mediante **Ingeniería de Prompts avanzada e Inteligencia Artificial**. 
 
 ---
 
