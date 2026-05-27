@@ -21,26 +21,29 @@ El software optimiza el flujo dividiendo los accesos en **3 roles de usuario esp
 
 ### 1️⃣ Operario de Línea (Emisor)
 * **Acción:** Registra la rotura de forma inmediata desde un terminal en la zona de ensamble.
-* **Optimización:** Formulario estructurado con menús desplegables obligatorios: Tipo de vidrio (*Monolítico/Laminado*), Medidas exactas, Instalación de origen (*Lavadora, Selladora, Carga*), Prioridad (*Normal/Alta*) y Tipo de no conformidad (*Defecto de máquina, Rayado, Rotura por operario*). Se eliminan los fallos de interpretación.
+* **Optimización:** Formulario estructurado con menús desplegables obligatorios: Tipo de vidrio, Medidas exactas, Instalación de origen y Tipo de no conformidad. Se eliminan los fallos de interpretación.
 
 ### 2️⃣ Mesa de Corte (Receptor/Ejecutor)
 * **Acción:** Recibe una cola dinámica visual de pedidos pendientes de reposición.
-* **Optimización:** En lugar de esperar un lote masivo de papeles, el cortador visualiza las incidencias al instante. Puede "colar" estratégicamente las reposiciones dentro de sus tiempos muertos de corte, optimizando el aprovechamiento del material y desatascando pedidos críticos. Al terminar, actualiza el estado a "Completado" con un solo clic.
+* **Optimización:** El cortador visualiza las incidencias al instante. Puede "colar" estratégicamente las reposiciones dentro de sus tiempos muertos de corte, optimizando el material y desatascando pedidos críticos.
 
-### 3️⃣ Panel de Oficina y Dirección (Auditoría)
-* **Acción:** Supervisión centralizada del estado de la fábrica.
-* **Optimización:** Control total de tiempos de gestión (*Lead Time*) desde que se genera el reporte hasta que se corta. Permite monitorizar de forma inmediata los picos de roturas para aplicar medidas de control de calidad preventivas y evitar pérdidas económicas.
+### 3️⃣ Panel de Oficina y Dirección (Auditoría y Analítica)
+* **Acción:** Supervisión centralizada y toma de decisiones basada en datos.
+* **Optimización:** Control total de tiempos de gestión. El sistema **calcula automáticamente la duración exacta** desde la creación hasta la compleción de cada reposición (Auditoría de Lead Time). Permite monitorizar picos de roturas para aplicar medidas de control de calidad preventivas.
+
+### 📄 Generación de Reportes PDF
+El sistema incluye un módulo de informes que permite **exportar listados filtrados de reposiciones a formato PDF** con un solo clic. Esto asegura la trazabilidad histórica para auditorías de calidad y control de material, eliminando la necesidad de archivar papeles físicos.
 
 ---
 
 ## 🛠️ Stack Tecnológico Utilizado
-* **Frontend:** HTML5, CSS3 (Diseño UI intuitivo y adaptado a pantallas táctiles de entorno industrial), JavaScript.
-* **Backend & Base de Datos:** **Firebase Realtime Database** (Garantiza que los cambios de estado se reflejen en la mesa de corte en menos de 1 segundo sin necesidad de recargar la página).
-* **Autenticación:** Firebase Auth (Control estricto de acceso por roles de operario y oficina).
+* **Frontend:** HTML5, CSS3, JavaScript.
+* **Backend & Base de Datos:** **Firebase Realtime Database** (Garantiza reflejo de cambios en <1s).
+* **Autenticación:** Firebase Auth (Control estricto de acceso por roles).
 
 ---
 
 ## 📈 Impacto Operativo Estimado
 * **Reducción del 100%** de errores por mala caligrafía.
 * **Eliminación de tiempos de espera muertos** al transformar un proceso por lotes rígido en un flujo continuo y dinámico.
-* **Trazabilidad total** para la toma de decisiones financieras y logísticas en dirección.
+* **Trazabilidad total y analítica de tiempos** para la toma de decisiones financieras en dirección.
